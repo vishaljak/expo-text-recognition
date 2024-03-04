@@ -89,4 +89,6 @@ repositories {
 dependencies {
   implementation project(':expo-modules-core')
   implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${getKotlinVersion()}"
+  implementation "com.google.mlkit:text-recognition:16.0.0"
+  implementation "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.7.1"
 }

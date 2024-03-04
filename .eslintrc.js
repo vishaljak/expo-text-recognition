@@ -1,5 +1,10 @@
 module.exports = {
-  root: true,
-  extends: ['universe/native', 'universe/web'],
-  ignorePatterns: ['build'],
+  extends: [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier",
+  ],
+  parser: ["@typescript-eslint/parser"],
+  ignorePatterns: ["build"],
 };
