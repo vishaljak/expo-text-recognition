@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "expo-text-recognition": ["../src/index"],
+      "expo-text-recognition/*": ["../src/*"]
+    }
+  }
+}

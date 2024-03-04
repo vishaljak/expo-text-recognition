@@ -1,0 +1,9 @@
+{
+  "platforms": ["ios", "tvos", "android", "web"],
+  "ios": {
+    "modules": ["ExpoTextRecognitionModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.textrecognition.ExpoTextRecognitionModule"]
+  }
+}
